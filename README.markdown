@@ -2,7 +2,7 @@ Symfony Polska Dokumentacja
 =====================
 
 Polska dokumentacja jest automatycznie generowana i dostępna online na http://symfony-docs.pl/
-Orginalna dokumentacja jest automatycznie generowana i dostępna online na http://symfony.com/doc/current/
+Oryginalna dokumentacja jest automatycznie generowana i dostępna online na http://symfony.com/doc/current/
 
 Współpraca
 -----------
