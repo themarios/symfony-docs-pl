@@ -9,17 +9,16 @@ Instalacja oraz konfiguracja Symfony
 
 Jest to dość wierne tłumaczenie anglojęzycznego artykułu `Installing and Configuring
 Symfony`_, ale uzupełnione w trakcie tłumaczenia o informacje, które wydają się
-niezbędne do przekazania w tym temacie. Poprawiono też kilka nieścisłości
-występujących w oryginale.
+niezbędne do przekazania. Poprawiono też kilka nieścisłości występujących w oryginale.
 
 Co do konwencji. W całym podręczniku stosowane są ścieżki w formacie uniksowym.
-Jeżeli chcesz zainstalować Symfony w środowisku Windows, to musisz sobie je
+Jeżeli chcesz zainstalować Symfony w środowisku Windows, to musisz je sobie
 odpowiednio przekształcić, co nie jest filozofią.
 
 Rozdział ten traktuje o sposobach pobrania i uruchomienia aplikacji roboczej
 zbudowanej na Symfony2. Na szczęście Symfony oferuje "dystrybucje", będące
-funkcjonalnymi projektami "startowymi" Symfony, które można pobrać i rozpocząć
-natychmiast na ich bazie tworzenie własnej aplikacji.
+funkcjonalnymi projektami "startowymi" Symfony. Dystrybucje te można pobrać
+i natychmiast rozpocząć na ich bazie tworzenie własnej aplikacji.
 
 .. tip::
 
@@ -38,8 +37,9 @@ Pobieranie Dystrybucji Symfony2
     :doc:`Wymagania do uruchomienia Symfony2</reference/requirements>`.
         
 Symfony2 dystrybuowany jest w pakietach zwanych "dystrybucjami", będącymi w pełni
-funkcjonalnymi aplikacjami, zawierającymi biblioteki rdzenia Symfony2, wybór użytecznych
-pakietów-wtyczek (ang. bundles), sensowną strukturę katalogów i domyślna konfigurację.
+funkcjonalnymi aplikacjami. Zawierają one biblioteki rdzenia Symfony2, wybór
+użytecznych pakietów-wtyczek (ang. bundles), sensowną strukturę katalogów i domyślną
+konfigurację.
 Gdy pobierze się dystrybucję Symfony2, to uzyskuje się funkcjonalny szkielet aplikacyjny,
 który może zostać natychmiast wykorzystany do rozpoczęcia tworzenia własnej aplikacji.
 
@@ -111,7 +111,7 @@ Drugi, to instalacja globalna, dostępna w całym systemie.
       $ sudo mv composer.phar /usr/local/bin/composer
       
    Konieczne jest jeszcze umieszczenie sieżki */usr/local/bin* w zmiennej *PATH*,
-   co można zrobić, w systemie takim jak Ubuntu, przez edycję pliku *~/.profile*:
+   co można zrobić, w systemie takim jak Debian/Ubuntu, przez edycję pliku *~/.profile*:
       
    .. code-block:: bash
          
