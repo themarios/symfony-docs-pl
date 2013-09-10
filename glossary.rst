@@ -57,12 +57,7 @@ Słownik
       obiektu ``Response``, który reprezentuje daną stronę.
       Zazwyczaj trasa jest odwzorowywana na kontroler, który następnie używa
       informacji z żądania HTTP do przetworzenia danych, przetwarza akcje
-      i ostatecznie konstruuje i zwraca obiekt ``Response``. Należy zaznaczyć,
-      że w polskiej literaturze poświęconej Symfony [1]_ termin *kontroler*
-      odnoszony jest czasem do obiektu zawierającego metody, które tu określone
-      zostały jako *kontroler* (np. ``DefaultController) a nie do tych metod.
-      Tutaj *kontrolerem* będziemy nazywać, zgodnie z naszą defnicją, metodę
-      (funkcję) wykonującą opisane tu działanie.    
+      i ostatecznie konstruuje i zwraca obiekt ``Response``. 
 
    usługa
       (*ang. service*)
