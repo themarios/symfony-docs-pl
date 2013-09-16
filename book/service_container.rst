@@ -752,7 +752,7 @@ Wstrzykiwanie zależności przez metodę setera wymaga zmiany składni:
 .. note::
 
     Opisane tutaj podejście nazywane jest "wstrzykiwaniem konstruktora" i "wstrzykiwaniem
-    setera". Kontener usług Symfony2 również obsługuje "wstrzykiwanie zależności".
+    setera". Kontener usług Symfony2 również obsługuje "wstrzykiwanie właściwości".
 
 Czynienie referencji opcjonalnymi
 ---------------------------------
