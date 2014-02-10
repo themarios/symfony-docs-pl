@@ -651,7 +651,7 @@ Zarządzanie sesją
 -----------------
 
 Symfony2 zapewnia świetny obiekt sesji, który można użyć do przechowywania informacji
-o użytkowniku między poszczególnymio żądaniami (zarówno prawdziwej osoby używającej
+o użytkowniku między poszczególnymi żądaniami (zarówno prawdziwej osoby używającej
 przeglądarki, jak i użytkownika w postacji serwisu web). Domyślnie Symfony2 zapamiętuje
 atrybuty w pliku cookie, używając natywnych sesji PHP.
 
