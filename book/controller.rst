@@ -584,7 +584,7 @@ Silnik szablonów Symfony jest szczegółowo wyjaśniony w rozdziale
 Dostęp do innych usług
 ~~~~~~~~~~~~~~~~~~~~~~
 
-Rozszerzając klasę kontrolera podstaowego, można uzyskać dostęp do
+Rozszerzając klasę kontrolera podstawowego, można uzyskać dostęp do
 każdej usługi Symfony2 poprzez metodę ``get()``. Poniżej znajduje się kilka
 popularnych usług, jakie mogą być potrzebne::
 
