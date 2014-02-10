@@ -123,9 +123,9 @@ Kontroler jest bardzo prosty, przeanalizujmy go:
   którą nasz kontroler musi zwrócić.
 
 * *linia 6*: Nazwa klasy kontrolera to połączenie nazwy kontrolera
-(np. ``Hello``) i słowa  ``Controller``. Jest to konwencja zapewniająca zgodność
-nazewniczą kontrolerów i pozwalająca na odwoływanie się do nich wyłącznie przez
-pierwszą część ich nazwy (np. ``Hello``) w konfiguracji trasowania.
+  (np. ``Hello``) i słowa  ``Controller``. Jest to konwencja zapewniająca zgodność
+  nazewniczą kontrolerów i pozwalająca na odwoływanie się do nich wyłącznie przez
+  pierwszą część ich nazwy (np. ``Hello``) w konfiguracji trasowania.
 
 * *linia 8*: Każda nazwa akcji w klasie kontrolera posiada przyrostek ``Action``
   i odwołuje się do konfiguracji trasowania poprzez nazwę akcji (``index``).
