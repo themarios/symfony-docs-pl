@@ -800,7 +800,7 @@ obiekcie ``HeaderBag`` i są równie łatwo dostępne.
 Wnioski końcowe
 ---------------
 
-Za każdym razem, kiedy tworzy sie stronę, musi się napisać kod, który zaiwera logikę
+Za każdym razem, kiedy tworzy sie stronę, musi się napisać kod, który zawiera logikę
 tej strony. W Symfony nazywa się ten kod kontrolerem i jest to funkcja PHP, która
 może robić wszystko co jest potrzebne, aby w efekcie końcowym został zwrócony
 obiekt ``Response``, który zostaje wysłany do użytkownika.
