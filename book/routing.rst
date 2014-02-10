@@ -167,7 +167,7 @@ Tworzenie tras
 
 Symfony wczytuje wszystkie trasy dla aplikacji z pojedynczego pliku trasowania.
 Ten plik to zazwyczaj ``app/config/routing.yml``, jednakże można
-skonfigurować inny plik (nawet w formacie XML zy PHP) za pośrednictwem pliku
+skonfigurować inny plik (nawet w formacie XML czy PHP) za pośrednictwem pliku
 konfiguracyjnego aplikacji:
 
 .. configuration-block::
@@ -202,7 +202,7 @@ konfiguracyjnego aplikacji:
 
     Nawet, jeśli wszystkie trasy są wczytywane z pojedynczego pliku, dobrą praktyką
     jest dołączać dodatkowe zasoby trasowania z innych plików.
-    Zobacz do rozdiału :ref:`routing-include-external-resources` w celu poznania
+    Zobacz do rozdziału :ref:`routing-include-external-resources` w celu poznania
     szczegółów.
 
 Podstawowa konfiguracja trasy
@@ -250,7 +250,7 @@ oraz z tablicy ``defaults`` przechowującej wartości domyślne:
         return $collection;
 
 Ta trasa dopasowuje do stronę główną aplikacji (``/``) i odwzorowuje kontroler
-``AcmeDemoBundle:Main:homepage``. Ciąć znakowy ``_controller`` jest zamieniany
+``AcmeDemoBundle:Main:homepage``. Ciąg znakowy ``_controller`` jest zamieniany
 na nazwę odpowiedniej funkcji PHP, która następnie zostaje wykonana.
 Ten proces będzie wyjaśniony w sekcji :ref:`controller-string-syntax`.
 
@@ -737,7 +737,7 @@ z nich będzie pasować tylko do żądań GET, a druga tylko do żądań POST. O
 wykorzystując do tego oddzielne kontrolery dla tych dwóch różnych akcji.
 
 .. note::
-    Jeśli nie zostanie podane wymaganie dla `methods``, trasa będzie pasować do
+    Jeśli nie zostanie podane wymaganie dla ``methods``, trasa będzie pasować do
     wszystkich metod HTTP.
 
 
@@ -753,7 +753,7 @@ Dodawanie hosta
     W Symfony 2.2 dodano obsługę dopasowania hosta
 
 Można również dopasowywać nagłówek HTTP `Host`_ przychodzącego żądania. Więcej
-informacji można uzyskać a artykule :doc:`/components/routing/hostname_pattern`
+informacji można uzyskać w artykule :doc:`/components/routing/hostname_pattern`
 w dokumentacji komponentu Routing.
 
 .. index::
@@ -852,7 +852,7 @@ Specjalne parametry trasowania
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Jak mogliśmy sie przekonać, każda wartość parametr trasowania jest dostępna jako
-argument w metododzie kontrolera. Dodatkowo istnieją jeszcze trzy specjalne
+argument w metodzie kontrolera. Dodatkowo istnieją jeszcze trzy specjalne
 parametry - każdy z nich dodaje unikatową cząstkę funkcjonalności do aplikacji:
 
 * ``_controller``: określa który kontroler ma zostać użyty gdy trasa zostanie dopasowana;
@@ -864,7 +864,7 @@ parametry - każdy z nich dodaje unikatową cząstkę funkcjonalności do aplika
 .. tip::
 
     Jeśli używa się parametru ``_locale``, jego wartość będzie również przechowywana
-    w sesji, dzięki czemu dla kolejnych żądań będą stosowane te same ustawinia
+    w sesji, dzięki czemu dla kolejnych żądań będą stosowane te same ustawienia
     regionalne.
 
 .. index::
@@ -1126,7 +1126,7 @@ Wizualizowanie i debugowanie tras
 Dodając i dostosowując ścieżki, pomocna może okazać się możliwość wizualizacji
 oraz uzyskania szczegółowej informacji o trasach. Dobrym sposobem,
 na zobaczenie wszystkich tras aplikacji jest użycie polecenia ``router:debug``.
-Polecenie należy wykonać głównym katalogu projektu, tak jak poniżej:
+Polecenie należy wykonać w głównym katalogu projektu, tak jak poniżej:
 
 .. code-block:: bash
 
@@ -1152,7 +1152,7 @@ jej nazwę do powyższego polecenia:
     $ php app/console router:debug article_show
     
 .. versionadded:: 2.1
-    W Symfony 2.1 dodano obsługe polecenia ``router:match``.
+    W Symfony 2.1 dodano obsługę polecenia ``router:match``.
 
 Można sprawdzić czy trasa pasuje do ścieżki posługując się poleceniem konsoli ``router:match``:
 
@@ -1182,7 +1182,7 @@ Przyjrzyjmy się poniższemu przykładowi wykorzystującemu wcześniejszą tras�
     $uri = $router->generate('blog_show', array('slug' => 'my-blog-post'));
     // /blog/my-blog-post
 
-Aby wygenerować ścieżkę URL, musi się określić nazwę trasy (np. ``blog_show``) oraz
+Aby wygenerować ścieżkę URL, wymagane jest aby określić nazwę trasy (np. ``blog_show``) oraz
 wszystkie wieloznaczniki (np. ``slug = my-blog-post``) użyte we wzorcu tej trasy.
 Z tej informacji można wygenerować łatwo każdą ścieżkę URL:
 
