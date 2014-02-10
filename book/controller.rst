@@ -65,7 +65,7 @@ metodę obiektu kontrolera (akcję), w które przechowuje indywidualny kod aplik
 #. Wykonywana jest metoda obiektu kontrolera (akcja) z dopasowana trasą i kod w nim zawarty
    tworzy i zwraca obiekt ``Response``;
 
-#. Odsyłane są do klienta nagłówki HTTP i zawartość obiektu ``Response`.
+#. Odsyłane są do klienta nagłówki HTTP i zawartość obiektu ``Response``.
 
 Tworzenie strony sprowadza się do napisania kontrolera (#3) i trasy, która odwzorowuje
 adres URL na ten kontroler (#2).
@@ -782,7 +782,7 @@ Obiekt Request
 --------------
 
 Rozszerzając podstawową klasę ``Controller``, kontroler uzyskuje również dostęp
-do obiektu``Request``::
+do obiektu ``Request``::
 
     $request = $this->getRequest();
 
