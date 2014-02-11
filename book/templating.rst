@@ -414,7 +414,7 @@ lokalizacji:
 
 * ``AcmeBlogBundle:Blog:index.html.twig``: Ta składnia jest używana do określenia
   szablonu dla określonej strony. Trzy części łańcucha, każdy oddzielony dwukropkiem
-  (``:``) ma następujace znaczenie:
+  (``:``) ma następujące znaczenie:
 
     * ``AcmeBlogBundle``: (*pakiet*) szablon znajduje się wewnątrz ``AcmeBlogBundle``
       (np. ``src/Acme/BlogBundle``);
