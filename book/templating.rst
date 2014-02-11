@@ -473,8 +473,6 @@ proszę przeczytać rozdział :ref:`template-formats`.
 
 .. note::
 
-   The available "engines" can be configured and even new engines added.
-   See :ref:`Templating Configuration<template-configuration>` for more details.
    Można konfigurować dostępne "silniki" a nawet dodawać nowe. W celu uzyskania
    więcej informacji proszę przeczytać rozdział
    :ref:`Konfiguracja szablonowania<template-configuration>`.
