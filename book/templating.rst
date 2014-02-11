@@ -409,12 +409,12 @@ Domyślnie szablony mogą zostać umieszczone w dwu różnych lokalizacjach:
   funkcjonuje wewnątrz pakietu.
 
 Symfony2 używa dla odwoływania się do szablonów składni **pakiet**:**kontroler**:**szablon**.
-Umożliwia to na wiele różnych typów szablonów, z których każdy znajduje się w określonej
+Pozwala to na wiele różnych typów szablonów, z których każdy znajduje się w określonej
 lokalizacji:
 
 * ``AcmeBlogBundle:Blog:index.html.twig``: Ta składnia jest używana do określenia
   szablonu dla określonej strony. Trzy części łańcucha, każdy oddzielony dwukropkiem
-  (``:``) ma następujace znaczenie:
+  (``:``) ma następujące znaczenie:
 
     * ``AcmeBlogBundle``: (*pakiet*) szablon znajduje się wewnątrz ``AcmeBlogBundle``
       (np. ``src/Acme/BlogBundle``);
@@ -468,13 +468,11 @@ formatem w jakim ma zostać wygenerowany szablon. Inaczej niż rozszerzenie wska
 silnik, które determinuje jak parsowany będzie szablon Symfony2 , rozszerzenie
 formatu jest organizacyjną taktyką stosowaną w przypadku tego samego aktywu
 (*ang. asset*), który może zostać przetworzony jako HTML (``index.html.twig``),
-XML (``index.xml.twig``), lub inny format. Dla uzyskania więcej informacji
+XML (``index.xml.twig``), lub inny format. Aby uzyskać więcej informacji
 proszę przeczytać rozdział :ref:`template-formats`.
 
 .. note::
 
-   The available "engines" can be configured and even new engines added.
-   See :ref:`Templating Configuration<template-configuration>` for more details.
    Można konfigurować dostępne "silniki" a nawet dodawać nowe. W celu uzyskania
    więcej informacji proszę przeczytać rozdział
    :ref:`Konfiguracja szablonowania<template-configuration>`.
@@ -511,7 +509,7 @@ Dołączanie innych szablonów
 Często występuje potrzeba dołączenia tego samego szablonu lub tego samego fragmentu
 kodu na różnych stronach. Na przykład, w aplikacji z "artykułami prasowymi" kod
 szablonu wyświetla streszczenie artykułu mogące być użyte na stronie szczegółowego
-artykułu, na stronie wyświetlającej najpardziej popularne artykuły lub na liście
+artykułu, na stronie wyświetlającej najbardziej popularne artykuły lub na liście
 najnowszych artykułów.
 
 Kiedy trzeba użyć wielokrotnie porcji kodu PHP, to zazwyczaj przenosi się ten kod
