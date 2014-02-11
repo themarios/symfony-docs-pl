@@ -409,7 +409,7 @@ Domyślnie szablony mogą zostać umieszczone w dwu różnych lokalizacjach:
   funkcjonuje wewnątrz pakietu.
 
 Symfony2 używa dla odwoływania się do szablonów składni **pakiet**:**kontroler**:**szablon**.
-Umożliwia to na wiele różnych typów szablonów, z których każdy znajduje się w określonej
+Pozwala to na wiele różnych typów szablonów, z których każdy znajduje się w określonej
 lokalizacji:
 
 * ``AcmeBlogBundle:Blog:index.html.twig``: Ta składnia jest używana do określenia
