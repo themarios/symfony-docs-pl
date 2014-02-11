@@ -509,7 +509,7 @@ Dołączanie innych szablonów
 Często występuje potrzeba dołączenia tego samego szablonu lub tego samego fragmentu
 kodu na różnych stronach. Na przykład, w aplikacji z "artykułami prasowymi" kod
 szablonu wyświetla streszczenie artykułu mogące być użyte na stronie szczegółowego
-artykułu, na stronie wyświetlającej najpardziej popularne artykuły lub na liście
+artykułu, na stronie wyświetlającej najbardziej popularne artykuły lub na liście
 najnowszych artykułów.
 
 Kiedy trzeba użyć wielokrotnie porcji kodu PHP, to zazwyczaj przenosi się ten kod
