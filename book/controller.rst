@@ -65,7 +65,7 @@ metodę obiektu kontrolera (akcję), w które przechowuje indywidualny kod aplik
 #. Wykonywana jest metoda obiektu kontrolera (akcja) z dopasowana trasą i kod w nim zawarty
    tworzy i zwraca obiekt ``Response``;
 
-#. Odsyłane są do klienta nagłówki HTTP i zawartość obiektu ``Response`.
+#. Odsyłane są do klienta nagłówki HTTP i zawartość obiektu ``Response``.
 
 Tworzenie strony sprowadza się do napisania kontrolera (#3) i trasy, która odwzorowuje
 adres URL na ten kontroler (#2).
@@ -123,9 +123,9 @@ Kontroler jest bardzo prosty, przeanalizujmy go:
   którą nasz kontroler musi zwrócić.
 
 * *linia 6*: Nazwa klasy kontrolera to połączenie nazwy kontrolera
-(np. ``Hello``) i słowa  ``Controller``. Jest to konwencja zapewniająca zgodność
-nazewniczą kontrolerów i pozwalająca na odwoływanie się do nich wyłącznie przez
-pierwszą część ich nazwy (np. ``Hello``) w konfiguracji trasowania.
+  (np. ``Hello``) i słowa  ``Controller``. Jest to konwencja zapewniająca zgodność
+  nazewniczą kontrolerów i pozwalająca na odwoływanie się do nich wyłącznie przez
+  pierwszą część ich nazwy (np. ``Hello``) w konfiguracji trasowania.
 
 * *linia 8*: Każda nazwa akcji w klasie kontrolera posiada przyrostek ``Action``
   i odwołuje się do konfiguracji trasowania poprzez nazwę akcji (``index``).
@@ -584,7 +584,7 @@ Silnik szablonów Symfony jest szczegółowo wyjaśniony w rozdziale
 Dostęp do innych usług
 ~~~~~~~~~~~~~~~~~~~~~~
 
-Rozszerzając klasę kontrolera podstaowego, można uzyskać dostęp do
+Rozszerzając klasę kontrolera podstawowego, można uzyskać dostęp do
 każdej usługi Symfony2 poprzez metodę ``get()``. Poniżej znajduje się kilka
 popularnych usług, jakie mogą być potrzebne::
 
@@ -651,7 +651,7 @@ Zarządzanie sesją
 -----------------
 
 Symfony2 zapewnia świetny obiekt sesji, który można użyć do przechowywania informacji
-o użytkowniku między poszczególnymio żądaniami (zarówno prawdziwej osoby używającej
+o użytkowniku między poszczególnymi żądaniami (zarówno prawdziwej osoby używającej
 przeglądarki, jak i użytkownika w postacji serwisu web). Domyślnie Symfony2 zapamiętuje
 atrybuty w pliku cookie, używając natywnych sesji PHP.
 
@@ -782,7 +782,7 @@ Obiekt Request
 --------------
 
 Rozszerzając podstawową klasę ``Controller``, kontroler uzyskuje również dostęp
-do obiektu``Request``::
+do obiektu ``Request``::
 
     $request = $this->getRequest();
 
@@ -800,7 +800,7 @@ obiekcie ``HeaderBag`` i są równie łatwo dostępne.
 Wnioski końcowe
 ---------------
 
-Za każdym razem, kiedy tworzy sie stronę, musi się napisać kod, który zaiwera logikę
+Za każdym razem, kiedy tworzy sie stronę, musi się napisać kod, który zawiera logikę
 tej strony. W Symfony nazywa się ten kod kontrolerem i jest to funkcja PHP, która
 może robić wszystko co jest potrzebne, aby w efekcie końcowym został zwrócony
 obiekt ``Response``, który zostaje wysłany do użytkownika.
