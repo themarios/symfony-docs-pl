@@ -468,7 +468,7 @@ formatem w jakim ma zostać wygenerowany szablon. Inaczej niż rozszerzenie wska
 silnik, które determinuje jak parsowany będzie szablon Symfony2 , rozszerzenie
 formatu jest organizacyjną taktyką stosowaną w przypadku tego samego aktywu
 (*ang. asset*), który może zostać przetworzony jako HTML (``index.html.twig``),
-XML (``index.xml.twig``), lub inny format. Dla uzyskania więcej informacji
+XML (``index.xml.twig``), lub inny format. Aby uzyskać więcej informacji
 proszę przeczytać rozdział :ref:`template-formats`.
 
 .. note::
